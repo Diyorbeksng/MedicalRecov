@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav{
+    width: 75%;
+    top: 0;
+    left: 200px;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    padding-right: 200px;
+    background-color: white;
+    z-index: 3;
+
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+
+
+    ul{
+        display: flex;
+        align-items:center;
+        padding-top: 5px;
+        padding-right: 500px;
+        padding-left: 100px;
+    }
+}
+
+.nav-menu ul li{
+    padding: 10px;
+    font-size: large;
+}
+
+.register{
+    display: flex;
+    align-items:center;
+    padding-top: 5px;
+    
+    
+}
+
+.login a{
+    color: red;
+}
+
+.btn{
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.Wbtn{
+    background-color: white;
+    color: red;
+    border: 1px red solid;
+    outline: auto;
+}
+
+
+
+
+#home{
+    padding-top: 200px;
+    display: flex;
+
+}
+
+.home-left{
+    width: 50%;
+    text-align: left;
+    padding-left: 90px;
+
+    h1{
+        margin: 10px 0px;
+        font-size: 50px;
+    }
+}
+
+.home-left h5{
+    color: red;
+}
+
+.home-left h4{
+    margin: 10px 0px;
+    color: rgb(75, 75, 75);
+}
+
+.home-right{
+    width: 50%;
+    position: relative;
+    padding-left: 150px;
+}   
+
+.block{
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+    background-color: rgb(229, 249, 247);
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    z-index: -1;
+}
+
+.home-right img{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.cards{
+    width: 90%;
+    margin: auto;
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.card{
+
+    width: 300px;
+    height: 280px;
+    margin-top: -30px;
+    box-shadow: 3px 3px 5px black;
+    padding: 30px;
+    text-align: left;
+    z-index: 1;
+    background-color: white;
+}
+
+.botLine{
+    height: 3px;
+    width: 30px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.card-icon{
+    width: 60px;
+    padding: 10px 13px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    img{
+
+        padding: auto;
+        align-items: center;
+    }
+}
+
+.card p{
+    color: rgb(129, 125, 125);
+}
+
+
+
+.stats{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.mainStat h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.mainStat p{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+    text-align: center;
+}
+
+.meetOE{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.meetL{
+    width: 45%;
+    text-align: left;
+
+    h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+    }
+}
+
+.meetL p{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.meetR{
+    width: 45%;
+}
+
+.meetL .botLine{
+    width: 80px;
+    height: 5px;
+}
+
+.PracticeAdvice{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.practiceHeader{
+    text-align: left;
+}
+
+p{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+
+.practiceHeader p{
+
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+
+}
+
+.product{
+    width: 340px;
+    background-color: white;
+}
+
+
+.productHead{
+    width: 348px;
+    height: 300px;
+    position: relative;
+}
+
+.productHead span{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+}
+
+.icons img{
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+
+.star{
+    display: flex;
+    border-radius: 16px;
+    background-color: black;
+    width: 40px;
+    padding: 3px;
+}
+
+.starr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.star span{
+    align-items: center;
+    margin-top: 0px;
+    color: white;
+}
+
+.bothead h5{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+
+.starr p{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+
+.products{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+#products{
+    width: 100%;
+    background-color: #E5F9F7;
+    padding-bottom: 100px;
+}
+
+.practiceHeader{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.practiceHeader h2{
+    font-size: 30px;
+}
+
+.leading{
+    width: 90%;
+    margin: auto;
+}
+
+.starrr img{
+
+}
+
+.chelName {
+    display: inline-block;
+}
+
+.chelName a{
+    color: red;
+}
+
+.cheli{
+
+    justify-content: space-between;
+}
+
+.starrr{
+    width: 200px;
+    text-align: center;
+}
+.starrr p {
+    text-align: center;
+}
+
+.cheli img{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.chelName a,h4{
+    padding-top: -10px;
+}
+
+.nav-menu a{
+    color: black;
+}
